@@ -2,3 +2,4 @@
 ==================
 
   * Initial release
+  * Added travis CI too
