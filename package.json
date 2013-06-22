@@ -5,13 +5,15 @@
   "author": "Sudhanshu Raheja <sudhanshu@vxtindia.com>",
   "scripts": {
     "start": "node app.js",
-    "test": "mocha"
+    "test": "make test"
   },
   "dependencies": {
     "express": "~3.2.0",
     "jade": "*",
     "underscore": "~1.4.4",
-    "mocha": "~1.11.0"
+    "mocha": "~1.11.0",
+    "chai": "~1.7.0",
+    "supertest": "~0.7.0"
   },
   "repository": "git://github.com/vxtindia/M777",
   "devDependencies": {
