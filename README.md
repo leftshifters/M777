@@ -2,5 +2,6 @@
 =========
 Helps destroy bugs
 
-"!https://travis-ci.org/vxtindia/M777.png!":https://travis-ci.org/vxtindia/M777
+[![Build Status](https://travis-ci.org/vxtindia/M777)](https://travis-ci.org/vxtindia/M777)
+
 [![Dependency Status](https://gemnasium.com/vxtindia/M777.png)](https://gemnasium.com/vxtindia/M777)
