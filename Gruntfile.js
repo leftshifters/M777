@@ -8,7 +8,7 @@ module.exports = function(grunt) {
 				separator: ';'
 			},
 			dist: {
-				src: ['components/angular/angular.js'],
+				src: ['components/angular/angular.js', 'components/jquery/jquery.js', 'components/modernizr/modernizr.js'],
 				dest: 'components/M777/<%= pkg.name %>.js'
 			}
 		},
