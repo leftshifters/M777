@@ -11,13 +11,15 @@
     "express": "~3.2.0",
     "jade": "*",
     "underscore": "~1.4.4",
-    "mocha": "~1.11.0",
-    "chai": "~1.7.0",
+    "mocha": "*",
+    "chai": "*",
     "supertest": "~0.7.0"
   },
   "repository": "git://github.com/vxtindia/M777",
   "devDependencies": {
     "grunt": "~0.4.1",
-    "grunt-contrib-concat": "~0.3.0"
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-contrib-cssmin": "~0.6.1"
   }
 }
