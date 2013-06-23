@@ -31,6 +31,8 @@ module.exports = function(grunt) {
 				files: [
 					{ expand: false, src: ['components/angular/angular.js'], dest: 'public/javascripts/angular.js' },
 					{ expand: false, src: ['components/angular/angular.min.js'], dest: 'public/javascripts/angular.min.js' },
+					{ expand: false, src: ['components/ui-router/build/angular-ui-router.min.js'], dest: 'public/javascripts/angular-ui-router.min.js' },
+					{ expand: false, src: ['components/ui-router/build/angular-ui-router.js'], dest: 'public/javascripts/angular-ui-router.js' },
 					{ expand: false, src: ['components/pure/build/pure-min.css'], dest: 'public/stylesheets/pure-min.css' }
 				]
 			}
